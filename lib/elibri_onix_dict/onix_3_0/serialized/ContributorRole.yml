@@ -63,6 +63,13 @@
     pl: projektant okładki
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ContributorRole 
+  onix_code: A40
+  const_name: INKED_OR_COLORED_BY
+  name:
+    en: inked or colored by
+    pl: tusz/kolor
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ContributorRole 
   onix_code: B01
   const_name: EDITOR
   name:
@@ -82,6 +89,13 @@
   name:
     en: translator
     pl: tłumacz
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ContributorRole 
+  onix_code: B11
+  const_name: EDITOR_IN_CHIEF
+  name:
+    en: editor-in-chief
+    pl: redaktor naczelny
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ContributorRole
   onix_code: E07
