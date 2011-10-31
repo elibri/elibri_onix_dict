@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{elibri_onix_dict}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcin Urbanski"]
-  s.date = %q{2011-10-27}
+  s.date = %q{2011-10-31}
   s.description = %q{EDItEUR ONIX format dictionary helpers used in eLibri publication system}
   s.email = %q{marcin@urbanski.vdl.pl}
   s.extra_rdoc_files = [
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "elibri_onix_dict.gemspec",
     "lib/elibri_onix_dict.rb",
     "lib/elibri_onix_dict/onix_3_0/base.rb",
     "lib/elibri_onix_dict/onix_3_0/serialized/AudienceRangePrecision.yml",
