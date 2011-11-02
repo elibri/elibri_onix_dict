@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{elibri_onix_dict}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcin Urbanski"]
-  s.date = %q{2011-10-31}
+  s.date = %q{2011-11-02}
   s.description = %q{EDItEUR ONIX format dictionary helpers used in eLibri publication system}
   s.email = %q{marcin@urbanski.vdl.pl}
   s.extra_rdoc_files = [
@@ -29,23 +29,34 @@ Gem::Specification.new do |s|
     "lib/elibri_onix_dict/onix_3_0/serialized/AudienceRangePrecision.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/AudienceRangeQualifier.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/Availability.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/CollectionType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ContentAudience.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ContributorRole.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/DateFormat.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ExtentType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ExtentUnit.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/LanguageCode.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/LanguageRole.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/MeasureType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/NotificationType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/OtherTextType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/PricePrintedOnProduct.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/PriceTypeCode.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductAvailabilityType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductFormCode.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ProductIDType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductRelationType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/PublishingDateRole.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/PublishingStatusCode.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ResourceContentType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ResourceForm.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ResourceMode.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/SalesRestrictionType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/SubjectSchemeIdentifier.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/SupplierRole.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/TitleElementLevel.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/TitleType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/UnnamedPersons.yml",
     "lib/elibri_onix_dict/releases.rb",
     "lib/elibri_onix_dict/version.rb",
     "test/elibri_onix_dict_release_3_0_test.rb",
