@@ -76,3 +76,10 @@
   name:
     en: other cartographic
     pl: inny format kartograficzny
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'PC'
+  const_name: CALENDAR
+  name:
+    en: calendar
+    pl: kalendarz
