@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{elibri_onix_dict}
-  s.version = "0.0.5"
+  s.version = "0.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcin Urbanski"]
-  s.date = %q{2011-11-15}
+  s.date = %q{2011-12-16}
   s.description = %q{EDItEUR ONIX format dictionary helpers used in eLibri publication system}
   s.email = %q{marcin@urbanski.vdl.pl}
   s.extra_rdoc_files = [
@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
     "lib/elibri_onix_dict/onix_3_0/serialized/Availability.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/CollectionType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ContentAudience.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ContentSourceType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ContributorRole.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/DateFormat.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentType.yml",
