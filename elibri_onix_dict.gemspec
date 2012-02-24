@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{elibri_onix_dict}
-  s.version = "0.0.6"
+  s.version = "0.0.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcin Urbanski"]
-  s.date = %q{2011-12-16}
+  s.date = %q{2012-02-24}
   s.description = %q{EDItEUR ONIX format dictionary helpers used in eLibri publication system}
   s.email = %q{marcin@urbanski.vdl.pl}
   s.extra_rdoc_files = [
@@ -34,6 +34,7 @@ Gem::Specification.new do |s|
     "lib/elibri_onix_dict/onix_3_0/serialized/ContentSourceType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ContributorRole.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/DateFormat.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/EpubTechnicalProtection.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentUnit.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/LanguageCode.yml",
@@ -45,6 +46,7 @@ Gem::Specification.new do |s|
     "lib/elibri_onix_dict/onix_3_0/serialized/PriceTypeCode.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductAvailabilityType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductFormCode.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/ProductFormDetail.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductIDType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ProductRelationType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/PublishingDateRole.yml",
