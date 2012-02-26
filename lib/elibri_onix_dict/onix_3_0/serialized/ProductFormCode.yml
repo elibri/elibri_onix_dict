@@ -15,11 +15,11 @@
     pl: e-book
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
-  onix_code: 'AA'
-  const_name: AUDIO_RECORDING
+  onix_code: 'AJ'
+  const_name: AUDIO_DOWNLOADABLE_FILE
   name:
-    en: audio recording
-    pl: nagranie audio
+    en: audio recording file
+    pl: audio MP3
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AB'
