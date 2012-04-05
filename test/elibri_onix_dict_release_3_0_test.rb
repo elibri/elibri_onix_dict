@@ -14,6 +14,16 @@ describe Elibri::ONIX::Dict::Release_3_0 do
     assert_equal 'książka', form.name 
     assert_equal 'book', form.name(:en)
     assert_equal 'BA', form.onix_code
+    assert !form.digital
+    assert !form.digital?
+
+    assert_raises NoMethodError do 
+      form.physical
+    end
+
+    assert_raises NoMethodError do
+      form.physical? 
+    end
   end
 
 
