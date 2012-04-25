@@ -4,20 +4,21 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{elibri_onix_dict}
+  s.name = "elibri_onix_dict"
   s.version = "0.0.10"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcin Urbanski"]
-  s.date = %q{2012-04-05}
-  s.description = %q{EDItEUR ONIX format dictionary helpers used in eLibri publication system}
-  s.email = %q{marcin@urbanski.vdl.pl}
+  s.date = "2012-04-25"
+  s.description = "EDItEUR ONIX format dictionary helpers used in eLibri publication system"
+  s.email = "marcin@urbanski.vdl.pl"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
   ]
   s.files = [
     ".document",
+    ".travis.yml",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -35,6 +36,8 @@ Gem::Specification.new do |s|
     "lib/elibri_onix_dict/onix_3_0/serialized/ContributorRole.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/DateFormat.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/EpubTechnicalProtection.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/EpubUsageStatus.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/EpubUsageType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentUnit.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/LanguageCode.yml",
@@ -66,11 +69,11 @@ Gem::Specification.new do |s|
     "test/elibri_onix_dict_test.rb",
     "test/helper.rb"
   ]
-  s.homepage = %q{http://github.com/elibri/elibri_onix_dict}
+  s.homepage = "http://github.com/elibri/elibri_onix_dict"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.2}
-  s.summary = %q{EDItEUR ONIX format dictionary helpers used in eLibri publication system}
+  s.rubygems_version = "1.8.19"
+  s.summary = "EDItEUR ONIX format dictionary helpers used in eLibri publication system"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
