@@ -1,0 +1,15 @@
+
+--- 
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::EpubUsageStatus
+  onix_code: '01'
+  const_name: UNLIMITED
+  name:
+    en: unlimited
+    pl: bez limitów
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::EpubUsageStatus
+  onix_code: '02'
+  const_name: LIMITED
+  name:
+    en: limited
+    pl: obowiązuje limit
