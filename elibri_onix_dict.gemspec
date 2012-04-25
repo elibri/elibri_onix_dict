@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "elibri_onix_dict"
-  s.version = "0.0.11"
+  s.version = "0.0.12"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcin Urbanski"]
@@ -38,6 +38,7 @@ Gem::Specification.new do |s|
     "lib/elibri_onix_dict/onix_3_0/serialized/EpubTechnicalProtection.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/EpubUsageStatus.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/EpubUsageType.yml",
+    "lib/elibri_onix_dict/onix_3_0/serialized/EpubUsageUnit.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentType.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/ExtentUnit.yml",
     "lib/elibri_onix_dict/onix_3_0/serialized/LanguageCode.yml",
