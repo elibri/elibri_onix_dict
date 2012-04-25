@@ -1,0 +1,8 @@
+
+--- 
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::EpubUsageUnit
+  onix_code: '09'
+  const_name: DAYS
+  name:
+    en: days
+    pl: dni
