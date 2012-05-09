@@ -1,5 +1,11 @@
 = elibri_onix_dict
 
+== Build status
+
+{<img src="https://secure.travis-ci.org/elibri/elibri_onix_dict.png?branch=master" alt="Build Status" />}[http://travis-ci.org/elibri/elibri_onix_dict]
+
+== Usage guide
+
   ree-1.8.7-2011.03 :005 > Elibri::ONIX::Dict::Release_3_0::ProductFormCode.find_by_onix_code 'BA'
    => #<Elibri::ONIX::Dict::Release_3_0::ProductFormCode:0x1ace440 @onix_code="BA", @name={"pl"=>"książka", "en"=>"book"}, @const_name="BOOK"> 
 
