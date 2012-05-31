@@ -21,23 +21,15 @@
   const_name: AUDIO_DOWNLOADABLE_FILE
   name:
     en: audio recording file
-    pl: audio MP3
+    pl: audiobook w formie pliku
   digital: true
-
-- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
-  onix_code: 'AB'
-  const_name: AUDIO_CASSETTE
-  name:
-    en: audio cassette
-    pl: kaseta magnetofonowa
-  digital: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AC'
   const_name: AUDIO_CD
   name:
     en: CD-audio
-    pl: audio CD
+    pl: audiobook na płycie CD
   digital: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
@@ -45,7 +37,7 @@
   const_name: AUDIO_DVD
   name:
     en: DVD-audio
-    pl: audio DVD
+    pl: audiobook na płycie DVD
   digital: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
