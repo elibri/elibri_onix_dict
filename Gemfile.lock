@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    elibri_onix_dict (0.0.15)
+    elibri_onix_dict (0.0.16)
 
 GEM
   remote: https://rubygems.org/
