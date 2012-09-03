@@ -11,8 +11,8 @@ describe Elibri::ONIX::Dict::Release_3_0 do
     assert_equal 9, Elibri::ONIX::Dict::Release_3_0::ProductFormCode.all_except(['BA', 'EA']).size
     assert_equal 'BA', Elibri::ONIX::Dict::Release_3_0::ProductFormCode::BOOK
     assert_equal '02', Elibri::ONIX::Dict::Release_3_0::EpubUsageStatus::LIMITED
-    assert_equal '07', Elibri::ONIX::Dict::Release_3_0::EpubUsageType::TIME_LIMITED
-    assert_equal '09', Elibri::ONIX::Dict::Release_3_0::EpubUsageUnit::DAYS
+    assert_equal '01', Elibri::ONIX::Dict::Release_3_0::EpubUsageType::PREVIEW
+    assert_equal '05', Elibri::ONIX::Dict::Release_3_0::EpubUsageUnit::PERCENTAGE
 
     form = Elibri::ONIX::Dict::Release_3_0::ProductFormCode.find_by_onix_code('BA')
     assert_equal 'książka', form.name 
