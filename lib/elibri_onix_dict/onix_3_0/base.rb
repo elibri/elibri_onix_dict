@@ -42,6 +42,10 @@ module Elibri
             self.const_get(:ALL) # Wartość stałej 'ALL' pobierz dynamicznie - z klasy pochodnej...
           end
 
+          #zwróć wszyskie wartości o określonych const_names
+          def self.by_const_names(const_names)
+            self.all.find_all { |value| const_names.include?(value.const_name) }
+          end
 
           # Zwróć listę wszystkich elementów słownika, poza tymi o kodach przekazanych jako argument
           def self.all_except(*onix_codes)

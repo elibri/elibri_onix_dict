@@ -1,8 +1,8 @@
 
 --- 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::EpubUsageType
-  onix_code: '07'
-  const_name: TIME_LIMITED
+  onix_code: '01'
+  const_name: PREVIEW
   name:
-    en: time-limited license
-    pl: licencja na określony czas
+    en: preview before purchase
+    pl: udostępnij fragment przed kupnem
