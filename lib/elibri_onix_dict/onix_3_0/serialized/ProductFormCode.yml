@@ -7,6 +7,7 @@
     en: book
     pl: książka
   digital: false
+  carrier: druk
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'EA'
@@ -15,6 +16,8 @@
     en: e-book
     pl: e-book
   digital: true
+  carrier: plik
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AJ'
@@ -23,6 +26,8 @@
     en: audio recording file
     pl: audiobook w formie pliku
   digital: true
+  carrier: plik
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AC'
@@ -31,6 +36,8 @@
     en: CD-audio
     pl: audiobook na płycie CD
   digital: false
+  carrier: CD
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AI'
@@ -39,6 +46,7 @@
     en: DVD-audio
     pl: audiobook na płycie DVD
   digital: false
+  carrier: DVD
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CA'
@@ -47,6 +55,8 @@
     en: sheet map
     pl: mapa
   digital: false
+  carrier: mapa
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CB'
@@ -55,7 +65,7 @@
     en: sheet map / folded
     pl: mapa składana
   digital: false
-
+  carrier: mapa
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CC'
@@ -64,6 +74,8 @@
     en: sheet map / flat
     pl: mapa płaska
   digital: false
+  carrier: mapa
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CD'
@@ -72,6 +84,7 @@
     en: sheet map / rolled
     pl: mapa w rolce
   digital: false
+  carrier: mapa
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CZ'
@@ -80,6 +93,8 @@
     en: other cartographic
     pl: inny format kartograficzny
   digital: false
+  carrier: mapa
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'PC'
@@ -88,4 +103,4 @@
     en: calendar
     pl: kalendarz
   digital: false
-
+  carrier: druk
