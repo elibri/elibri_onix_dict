@@ -104,3 +104,13 @@
     pl: kalendarz
   digital: false
   carrier: druk
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'ZE'
+  const_name: GAME
+  name:
+    en: board game
+    pl: gra planszowa
+  digital: false
+  carrier: druk
+
