@@ -8,6 +8,7 @@
     pl: książka
   digital: false
   carrier: druk
+  mandatory_isbn: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'EA'
@@ -17,6 +18,7 @@
     pl: e-book
   digital: true
   carrier: plik
+  mandatory_isbn: true
 
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
@@ -27,6 +29,7 @@
     pl: audiobook w formie pliku
   digital: true
   carrier: plik
+  mandatory_isbn: true
 
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
@@ -37,6 +40,7 @@
     pl: audiobook na płycie CD
   digital: false
   carrier: CD
+  mandatory_isbn: true
 
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
@@ -47,6 +51,7 @@
     pl: audiobook na płycie DVD
   digital: false
   carrier: DVD
+  mandatory_isbn: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CA'
@@ -56,7 +61,7 @@
     pl: mapa
   digital: false
   carrier: mapa
-
+  mandatory_isbn: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CB'
@@ -66,6 +71,8 @@
     pl: mapa składana
   digital: false
   carrier: mapa
+  mandatory_isbn: false
+
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CC'
@@ -75,7 +82,7 @@
     pl: mapa płaska
   digital: false
   carrier: mapa
-
+  mandatory_isbn: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CD'
@@ -85,6 +92,7 @@
     pl: mapa w rolce
   digital: false
   carrier: mapa
+  mandatory_isbn: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'CZ'
@@ -94,7 +102,7 @@
     pl: inny format kartograficzny
   digital: false
   carrier: mapa
-
+  mandatory_isbn: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'PC'
@@ -104,6 +112,7 @@
     pl: kalendarz
   digital: false
   carrier: druk
+  mandatory_isbn: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'ZE'
@@ -113,4 +122,5 @@
     pl: gra planszowa
   digital: false
   carrier: druk
+  mandatory_isbn: false
 

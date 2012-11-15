@@ -18,6 +18,8 @@ describe Elibri::ONIX::Dict::Release_3_0 do
     assert_equal 'book', form.name(:en)
     assert_equal 'BA', form.onix_code
     assert_equal "druk", form.carrier
+    assert form.mandatory_isbn
+
     assert !form.digital
     assert !form.digital?
 
