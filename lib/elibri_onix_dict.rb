@@ -2,8 +2,6 @@
 require 'elibri_onix_dict/version'
 require 'elibri_onix_dict/releases'
 
-$KCODE = "UTF-8"
-
 
 module Elibri
   module ONIX
