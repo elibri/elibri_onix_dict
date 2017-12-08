@@ -118,8 +118,8 @@
   onix_code: 'ZE'
   const_name: GAME
   name:
-    en: board game
-    pl: gra planszowa
+    en: board game / puzzle
+    pl: gra planszowa / puzzle
   digital: false
   carrier: druk
   mandatory_isbn: false
