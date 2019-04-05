@@ -31,7 +31,6 @@
   carrier: plik
   mandatory_isbn: true
 
-
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AC'
   const_name: AUDIO_CD
@@ -124,3 +123,22 @@
   carrier: druk
   mandatory_isbn: false
 
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'PODH'
+  const_name: POD_HARDCOVER
+  name:
+    en: pod hardcover book
+    pl: książka twarda oprawa
+  digital: false
+  carrier: druk
+  mandatory_isbn: true
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'PODS'
+  const_name: POD_SOFTCOVER
+  name:
+    en: pod softcover book
+    pl: książka miękka oprawa
+  digital: false
+  carrier: druk
+  mandatory_isbn: true
