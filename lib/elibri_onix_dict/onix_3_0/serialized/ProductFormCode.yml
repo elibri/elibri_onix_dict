@@ -128,7 +128,7 @@
   const_name: POD_HARDCOVER
   name:
     en: pod hardcover book
-    pl: książka twarda oprawa
+    pl: POD - okładka twarda
   digital: false
   carrier: druk
   mandatory_isbn: true
@@ -138,7 +138,7 @@
   const_name: POD_SOFTCOVER
   name:
     en: pod softcover book
-    pl: książka miękka oprawa
+    pl: POD - okładka miękka
   digital: false
   carrier: druk
   mandatory_isbn: true
