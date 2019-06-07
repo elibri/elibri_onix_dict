@@ -38,7 +38,7 @@
     pl: Godziny minuty
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ExtentUnit
   onix_code: '14'
-  const_nane: HHH
+  const_name: HHH
   name:
     en: hours
     pl: godziny
