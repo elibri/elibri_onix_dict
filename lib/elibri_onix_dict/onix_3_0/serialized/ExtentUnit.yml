@@ -32,7 +32,7 @@
     pl: Godziny minuty sekundy
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ExtentUnit
   onix_code: '15'
-  cost_name:  HHHMM
+  const_name:  HHHMM
   name:
     en: Hours minutes
     pl: Godziny minuty
