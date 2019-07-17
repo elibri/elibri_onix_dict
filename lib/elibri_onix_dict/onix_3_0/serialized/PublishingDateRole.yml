@@ -13,3 +13,11 @@
   name:  
     en: preorder embargo date
     pl: data, od której mogą być składane zamówienia
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::PublishingDateRole
+  onix_code: '13'
+  const_name: OUT_OF_PRINT_DATE
+  name:
+    en: out of print date
+    pl: data, po której książka zostanie wycofana z rynku
+
