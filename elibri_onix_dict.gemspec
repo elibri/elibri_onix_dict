@@ -24,11 +24,11 @@ Gem::Specification.new do |gem|
   
   gem.date = %q{2012-04-05}
    
+  gem.add_dependency "amatch"
   gem.add_development_dependency "pry"
   gem.add_development_dependency "minitest", ">= 0"
   gem.add_development_dependency "bundler", ">= 1.0.0"
   gem.add_development_dependency "jeweler", "~> 1.6.2"
-#  gem.add_development_dependency "rcov", ">= 0"
   
 
 end
