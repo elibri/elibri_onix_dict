@@ -31,7 +31,6 @@
   carrier: plik
   mandatory_isbn: true
 
-
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
   onix_code: 'AC'
   const_name: AUDIO_CD
@@ -124,3 +123,32 @@
   carrier: druk
   mandatory_isbn: false
 
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'ZJ'
+  const_name: JIGSAW
+  name:
+    en: jigsaw
+    pl: puzzle
+  digital: false
+  carrier: druk
+  mandatory_isbn: false
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'PODH'
+  const_name: POD_HARDCOVER
+  name:
+    en: pod hardcover book
+    pl: POD - okładka twarda
+  digital: false
+  carrier: druk
+  mandatory_isbn: true
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormCode
+  onix_code: 'PODS'
+  const_name: POD_SOFTCOVER
+  name:
+    en: pod softcover book
+    pl: POD - okładka miękka
+  digital: false
+  carrier: druk
+  mandatory_isbn: true

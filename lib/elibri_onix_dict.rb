@@ -1,6 +1,7 @@
 
 require 'elibri_onix_dict/version'
 require 'elibri_onix_dict/releases'
+require 'elibri_onix_dict/cover_type'
 require 'yaml'
 
 

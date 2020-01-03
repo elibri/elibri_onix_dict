@@ -1,0 +1,47 @@
+
+--- 
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 1
+  name: gąbka
+  product_form: BP
+  product_form_detail: 
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 4
+  name: miękka
+  product_form: BC
+  product_form_detail:
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 5
+  name: miękka ze skrzydełkami 
+  product_form: BC
+  product_form_detail: B504
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 6
+  name: plastikowa
+  product_form: BB
+  product_form_detail: B413
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 7
+  name: skórzana
+  product_form: BG
+  product_form_detail:
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 8
+  name: twarda
+  product_form: BB
+  product_form_detail:
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 9
+  name: twarda z obwolutą
+  product_form: BB
+  product_form_detail: B501
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 10
+  name: twarda lakierowana
+  product_form: BB
+  product_form_detail: B415
+- !ruby/object:Elibri::ONIX::Dict::CoverType
+  id: 11
+  name: zintegrowana 
+  product_form: BC
+  product_form_detail: B412
