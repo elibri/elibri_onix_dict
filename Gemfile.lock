@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    elibri_onix_dict (0.0.60)
+    elibri_onix_dict (0.0.61)
       amatch
 
 GEM
