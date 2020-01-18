@@ -1,9 +1,9 @@
 ---
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormFeatureType
   onix_code: '22'
-  const_name: GAMES_PIECES
+  const_name: NUMBER_OF_GAME_PIECES
   name:
-    en: Game pieces
+    en: Number of game pieces
     pl: Ilość elementów
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductFormFeatureType
