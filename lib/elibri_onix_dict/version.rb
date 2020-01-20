@@ -1,7 +1,7 @@
 module Elibri
   module ONIX
     module Dict
-      VERSION = "0.0.64"
+      VERSION = "0.0.65"
       Version = VERSION
     end
   end

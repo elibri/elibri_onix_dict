@@ -6,8 +6,8 @@ require 'helper'
 describe Elibri::ONIX::Dict::Release_3_0 do
 
   it "should be able to build classes on the fly from .yml files" do
-    assert_equal 15, Elibri::ONIX::Dict::Release_3_0::ProductFormCode::ALL.size
-    assert_equal 13, Elibri::ONIX::Dict::Release_3_0::ProductFormCode.all_except('BA', 'EA').size
+    assert_equal 18, Elibri::ONIX::Dict::Release_3_0::ProductFormCode::ALL.size
+    assert_equal 16, Elibri::ONIX::Dict::Release_3_0::ProductFormCode.all_except('BA', 'EA').size
     assert_equal 'BA', Elibri::ONIX::Dict::Release_3_0::ProductFormCode::BOOK
     assert_equal '02', Elibri::ONIX::Dict::Release_3_0::EpubUsageStatus::LIMITED
     assert_equal '01', Elibri::ONIX::Dict::Release_3_0::EpubUsageType::PREVIEW
