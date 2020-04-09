@@ -189,6 +189,6 @@
   name:
     en: e-book open access
     pl: e-book open access
-  digital: true
+  digital: false
   carrier: plik
   mandatory_isbn: true
