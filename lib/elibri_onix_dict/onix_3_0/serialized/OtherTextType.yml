@@ -43,3 +43,9 @@
     en: short collection description
     pl: krótki opis cyklu (max. 350 znaków)
 
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::OtherTextType
+  onix_code: '20'
+  const_name: OPEN_ACCESS_STATEMENT
+  name:
+    en: open access statement
+    pl: deklaracja open access

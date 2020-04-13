@@ -24,3 +24,11 @@
   name:
     en: Wholesaler
     pl: hurtownia książek
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::SupplierRole
+  onix_code: '11'
+  const_name: RETAIL_NON_EXL_DIST
+  name:
+    en: Non-exclusive distributor to end-customers
+    pl: Dystrybutor do klientów końcowych
+
