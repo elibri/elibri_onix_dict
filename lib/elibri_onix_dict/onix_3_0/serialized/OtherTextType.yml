@@ -49,3 +49,11 @@
   name:
     en: open access statement
     pl: deklaracja open access
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::OtherTextType
+  onix_code: '32'
+  const_name: LIST_OF_CONTENTS
+  name:
+    en: list of contents
+    pl: zawartość pudełka
+
