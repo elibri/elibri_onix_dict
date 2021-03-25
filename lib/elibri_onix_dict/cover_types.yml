@@ -1,47 +1,47 @@
 
---- 
+---
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 1
-  name: gąbka
+  key: foam
   product_form: BP
-  product_form_detail: 
+  product_form_detail:
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 4
-  name: miękka
+  key: paperback
   product_form: BC
   product_form_detail:
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 5
-  name: miękka ze skrzydełkami 
+  key: paperback_with_flaps
   product_form: BC
   product_form_detail: B504
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 6
-  name: plastikowa
+  key: plastic
   product_form: BB
   product_form_detail: B413
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 7
-  name: skórzana
+  key: leather
   product_form: BG
   product_form_detail:
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 8
-  name: twarda
+  key: hardcover
   product_form: BB
   product_form_detail:
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 9
-  name: twarda z obwolutą
+  key: hardcover_with_dust_jacket
   product_form: BB
   product_form_detail: B501
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 10
-  name: twarda lakierowana
+  key: laminated_hardcover
   product_form: BB
   product_form_detail: B415
 - !ruby/object:Elibri::ONIX::Dict::CoverType
   id: 11
-  name: zintegrowana 
+  key: flexibound
   product_form: BC
   product_form_detail: B412
