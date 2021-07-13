@@ -28,7 +28,7 @@ module Elibri
 
         def self.determine_cover_type(product_form, product_form_detail)
           matching_cover = all.find { |cover| cover.product_form == product_form && cover.product_form_detail == product_form_detail }
-          matching_cover.key if matching_cover
+          I18n::t("products.cover_type.#{matching_cover.key}") if matching_cover
         end
 
         # Znajdź w słowniku typ okładki, którego nazwa jest najbardziej podobna do podanego stringu.
