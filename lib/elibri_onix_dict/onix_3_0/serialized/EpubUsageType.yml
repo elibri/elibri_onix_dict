@@ -1,8 +1,0 @@
-
---- 
-- !ruby/object:Elibri::ONIX::Dict::Release_3_0::EpubUsageType
-  onix_code: '01'
-  const_name: PREVIEW
-  name:
-    en: preview before purchase
-    pl: udostępnij fragment przed kupnem

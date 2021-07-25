@@ -7,26 +7,38 @@ module Elibri
         # Klasa podstawowa dla wszystkich słowników ONIX`a
         class Base
 
-          attr_reader :onix_code, :name, :const_name
+          attr_reader :onix_code, :name, :const_name, :onix_doc
 
           # ruby-1.9.2-head > dict_item.name(:en)
-          #  => "author" 
+          #  => "author"
           def name(locale = :pl)
             @name[locale.to_s]
           end
 
+          def onix_doc
+            if @onix_doc.nil?
+              true
+            else
+              @onix_doc
+            end
+          end
+
+          def onix_doc?
+            onix_doc
+          end
+
           def method_missing(method_name, *args)
-            if args.empty? 
+            if args.empty?
               if method_name.to_s =~ /\?$/
                 mn = method_name.to_s.gsub("?", "")
                 if instance_variable_defined?("@#{mn}")
                   value = instance_variable_get("@#{mn}")
                   if value.is_a?(TrueClass) || value.is_a?(FalseClass)
                     return value
-                  end 
+                  end
                 end
               elsif instance_variable_defined?("@#{method_name}")
-                return instance_variable_get("@#{method_name}") 
+                return instance_variable_get("@#{method_name}")
               end
             end
             super
@@ -52,7 +64,7 @@ module Elibri
             self.all.reject {|dict_item| onix_codes.include?(dict_item.onix_code) }
           end
 
-          
+
         end
 
 
