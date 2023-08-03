@@ -20,7 +20,7 @@ module Elibri
             klass = Class.new(Elibri::ONIX::Dict::Release_3_0::Base)
             # Elibri::ONIX::Dict::Release_3_0::ResourceMode
             const_set(klass_name, klass)
-            klass.const_set(:ALL, YAML::load_file(file))
+            klass.const_set(:ALL, YAML::load_file(file, permitted_classes: [klass]))
 
             klass::ALL.each do |dict_item|
               klass.const_set(dict_item.const_name, dict_item.onix_code) if dict_item.const_name

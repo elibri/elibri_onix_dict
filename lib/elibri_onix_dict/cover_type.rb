@@ -12,7 +12,7 @@ module Elibri
 
 
         conf =  File.expand_path(File.join(File.dirname(__FILE__), "cover_types.yml"))
-        ALL = YAML::load_file(conf)
+        ALL = YAML::load_file(conf, permitted_classes: [Elibri::ONIX::Dict::CoverType])
 
         HARDBACK = 8
         PLASTIC = 6

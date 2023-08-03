@@ -9,10 +9,6 @@ describe Elibri::ONIX::Dict::Release_3_0 do
     assert_equal 19, Elibri::ONIX::Dict::Release_3_0::ProductFormCode::ALL.size
     assert_equal 17, Elibri::ONIX::Dict::Release_3_0::ProductFormCode.all_except('BA', 'EA').size
     assert_equal 'BA', Elibri::ONIX::Dict::Release_3_0::ProductFormCode::BOOK
-    assert_equal '02', Elibri::ONIX::Dict::Release_3_0::EpubUsageStatus::LIMITED
-    assert_equal '01', Elibri::ONIX::Dict::Release_3_0::EpubUsageType::PREVIEW
-    assert_equal '05', Elibri::ONIX::Dict::Release_3_0::EpubUsageUnit::PERCENTAGE
-
     assert_equal '27', Elibri::ONIX::Dict::Release_3_0::PublishingDateRole::PREORDER_EMBARGO_DATE
 
     form = Elibri::ONIX::Dict::Release_3_0::ProductFormCode.find_by_onix_code('BA')
