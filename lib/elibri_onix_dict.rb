@@ -20,18 +20,23 @@ module Elibri
             klass = Class.new(Elibri::ONIX::Dict::Release_3_0::Base)
             # Elibri::ONIX::Dict::Release_3_0::ResourceMode
             const_set(klass_name, klass)
-            klass.const_set(:ALL, YAML::load_file(file, permitted_classes: [klass]))
+
+            if RUBY_VERSION[0] == "2"
+              klass.const_set(:ALL, YAML::load_file(file))
+            else
+              klass.const_set(:ALL, YAML::load_file(file, permitted_classes: [klass]))
+            end
 
             klass::ALL.each do |dict_item|
               klass.const_set(dict_item.const_name, dict_item.onix_code) if dict_item.const_name
-            end  
-          end  
+            end
+          end
         end
-      
+
       end
 
       Release_3_0.load_dictionaries!
-      
+
     end
   end
 end

@@ -1,5 +1,4 @@
 require 'yaml'
-require 'amatch'
 
 module Elibri
   module ONIX
@@ -12,7 +11,11 @@ module Elibri
 
 
         conf =  File.expand_path(File.join(File.dirname(__FILE__), "cover_types.yml"))
-        ALL = YAML::load_file(conf, permitted_classes: [Elibri::ONIX::Dict::CoverType])
+        if RUBY_VERSION[0] == "2"
+          ALL = YAML::load_file(conf)
+        else
+          ALL = YAML::load_file(conf, permitted_classes: [Elibri::ONIX::Dict::CoverType])
+        end
 
         HARDBACK = 8
         PLASTIC = 6
@@ -31,20 +34,9 @@ module Elibri
           I18n::t("products.cover_type.#{matching_cover.key}") if matching_cover
         end
 
-        # Znajdź w słowniku typ okładki, którego nazwa jest najbardziej podobna do podanego stringu.
-        def self.most_similar_to(cover_name)
-          if cover_name =~ /karton/
-            return all.find { |c| c.name == "twarda" }
-          else
-            all.sort_by {|cover_type| cover_type.name.downcase.levenshtein_similar(cover_name.downcase) }.last
-          end
-        end
-
-
         def self.all
           ALL
         end
-
 
       end
     end
