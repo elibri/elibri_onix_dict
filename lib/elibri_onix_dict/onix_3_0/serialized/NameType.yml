@@ -5,7 +5,7 @@
   const_name: REAL_NAME
   name:
     en: real name
-    pl: prawdziwie imię i nazwisko
+    pl: prawdziwe imię i nazwisko
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::NameType
   onix_code: '07'
