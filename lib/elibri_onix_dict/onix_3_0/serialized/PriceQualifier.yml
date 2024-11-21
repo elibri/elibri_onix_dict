@@ -1,0 +1,8 @@
+
+---
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::PriceQualifier
+  onix_code: '10'
+  const_name: LIBRARY_PRICE
+  name:
+    en: library price
+    pl: cena dla bibliotek
