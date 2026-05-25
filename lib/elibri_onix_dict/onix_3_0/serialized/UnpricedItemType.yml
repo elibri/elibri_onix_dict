@@ -6,3 +6,11 @@
   name:
     en: free of charge
     pl: bezpłatnie
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::UnpricedItemType
+  onix_code: '06'
+  const_name: REVENUE_SHARE
+  name:
+    en: Revenue share
+    pl: Revenue share
+
