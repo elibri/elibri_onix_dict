@@ -11,6 +11,11 @@ describe Elibri::ONIX::Dict::Release_3_0 do
     assert_equal 'BA', Elibri::ONIX::Dict::Release_3_0::ProductFormCode::BOOK
     assert_equal '27', Elibri::ONIX::Dict::Release_3_0::PublishingDateRole::PREORDER_EMBARGO_DATE
 
+    assert_equal '16', Elibri::ONIX::Dict::Release_3_0::NameIdentifierType::ISNI
+    assert_equal '31', Elibri::ONIX::Dict::Release_3_0::NameIdentifierType::VIAF
+    assert_equal 'ISNI', Elibri::ONIX::Dict::Release_3_0::NameIdentifierType.find_by_onix_code('16').name(:en)
+    assert_equal 'VIAF ID', Elibri::ONIX::Dict::Release_3_0::NameIdentifierType.find_by_onix_code('31').name(:en)
+
     form = Elibri::ONIX::Dict::Release_3_0::ProductFormCode.find_by_onix_code('BA')
     assert_equal 'książka', form.name 
     assert_equal 'book', form.name(:en)
