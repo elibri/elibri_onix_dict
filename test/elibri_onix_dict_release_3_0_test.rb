@@ -40,4 +40,18 @@ describe Elibri::ONIX::Dict::Release_3_0 do
   end
 
 
+  it "should keep finishings apart from file formats" do
+    finishing = Elibri::ONIX::Dict::Release_3_0::Finishing
+
+    assert_equal 15, finishing::ALL.size
+    assert_equal 'B419', finishing::DECORATED_PAGE_EDGES
+    assert_equal 'kapitałka', finishing.find_by_onix_code('B407').name
+    assert_equal 'head and tail bands', finishing.find_by_onix_code('B407').name(:en)
+    assert !finishing.find_by_onix_code('B407').in_onix_3_0_schema?
+    assert finishing.find_by_onix_code('B506').in_onix_3_0_schema?
+
+    assert_nil Elibri::ONIX::Dict::Release_3_0::ProductFormDetail.find_by_onix_code('B419')
+  end
+
+
 end
