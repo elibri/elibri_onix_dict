@@ -109,14 +109,6 @@
   in_onix_3_0_schema: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
-  onix_code: 'B519'
-  const_name: DUST_JACKET_POSTER
-  name:
-    en: with dust jacket poster
-    pl: obwoluta-plakat
-  in_onix_3_0_schema: true
-
-- !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B503'
   const_name: TRANSLUCENT_DUST_COVER
   name:
