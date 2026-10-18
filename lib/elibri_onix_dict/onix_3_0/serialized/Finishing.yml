@@ -1,8 +1,5 @@
 # Uszlachetnienia książki drukowanej - kody ONIX List 175 (<ProductFormDetail>), w eLibri
 # trzymane osobno od ProductFormDetail, który oznacza format pliku (E101, A103, ...).
-#
-# in_onix_3_0_schema: czy kod zna schemat ONIX 3.0 (starsza lista kodów) - kodów dopisanych
-# później nie można wysłać w XML-u walidowanym tym schematem.
 ---
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B419'
@@ -10,7 +7,6 @@
   name:
     en: decorated page edges
     pl: barwione brzegi (złocone, nadrukowane)
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B422'
@@ -18,7 +14,6 @@
   name:
     en: foil (on cover)
     pl: folia / złocenie na okładce (hot-stamping)
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B423'
@@ -26,7 +21,6 @@
   name:
     en: foil (on jacket)
     pl: folia / złocenie na obwolucie
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B421'
@@ -34,7 +28,6 @@
   name:
     en: embossed cover
     pl: tłoczenie / wytłoczenie (emboss/deboss)
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B214'
@@ -42,7 +35,6 @@
   name:
     en: soft-to-touch book
     pl: okładka soft-touch
-  in_onix_3_0_schema: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B420'
@@ -50,7 +42,6 @@
   name:
     en: delicate cover / jacket finish
     pl: delikatne wykończenie (lakier wybiórczy UV, mat)
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B408'
@@ -58,7 +49,6 @@
   name:
     en: decorated endpapers
     pl: zdobione wyklejki
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B407'
@@ -66,7 +56,6 @@
   name:
     en: head and tail bands
     pl: kapitałka
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B506'
@@ -74,7 +63,6 @@
   name:
     en: with ribbon marker(s)
     pl: zakładka-wstążka
-  in_onix_3_0_schema: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B212'
@@ -82,7 +70,6 @@
   name:
     en: die-cut book
     pl: wycinanie (die-cut)
-  in_onix_3_0_schema: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B520'
@@ -90,7 +77,6 @@
   name:
     en: rounded corners
     pl: zaokrąglone rogi
-  in_onix_3_0_schema: false
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B505'
@@ -98,7 +84,6 @@
   name:
     en: with thumb index
     pl: indeks palcowy (wycięcia)
-  in_onix_3_0_schema: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B510'
@@ -106,7 +91,6 @@
   name:
     en: rough front (deckle edge)
     pl: nieobcięte brzegi (deckle edge)
-  in_onix_3_0_schema: true
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::Finishing
   onix_code: 'B503'
@@ -114,4 +98,3 @@
   name:
     en: with translucent dust cover
     pl: obwoluta przezroczysta
-  in_onix_3_0_schema: true
