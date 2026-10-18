@@ -55,7 +55,7 @@ describe Elibri::ONIX::Dict::Release_3_0 do
   it "should list packaging types of a physical product" do
     packaging = Elibri::ONIX::Dict::Release_3_0::ProductPackaging
 
-    assert_equal 11, packaging::ALL.size
+    assert_equal 8, packaging::ALL.size
     assert_equal '12', packaging::TUBE
     assert_equal 'tuba (np. mapa, plakat)', packaging.find_by_onix_code('12').name
     assert_equal 'Slip-cased set', packaging.find_by_onix_code('11').name(:en)

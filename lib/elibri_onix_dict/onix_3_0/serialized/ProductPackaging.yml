@@ -1,5 +1,5 @@
-# Opakowanie, w którym produkt fizyczny trafia do klienta - kody ONIX List 80 (<ProductPackaging>),
-# wybrane te, które mają sens dla wydawców książek (bez m.in. slip-sleeve, clamshell, pouch, browse-prevention tape).
+# Opakowanie, w którym produkt fizyczny (poza audiobookami na nośnikach) trafia do klienta - kody ONIX List 80 (<ProductPackaging>),
+# wybrane te, które mają sens dla wydawców książek (bez m.in. opakowań płyt - jewel case, keep case, digipak - oraz slip-sleeve, clamshell, pouch, browse-prevention tape).
 # Kolejność to kolejność na formularzu.
 ---
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductPackaging
@@ -50,27 +50,6 @@
   name:
     en: Tube
     pl: tuba (np. mapa, plakat)
-
-- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductPackaging
-  onix_code: '05'
-  const_name: JEWEL_CASE
-  name:
-    en: Jewel case
-    pl: pudełko typu jewel case (CD)
-
-- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductPackaging
-  onix_code: '03'
-  const_name: KEEP_CASE
-  name:
-    en: Keep case
-    pl: pudełko typu keep case (DVD, Amaray)
-
-- !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductPackaging
-  onix_code: '06'
-  const_name: DIGIPAK
-  name:
-    en: Digipak
-    pl: digipak
 
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductPackaging
   onix_code: '22'
