@@ -34,3 +34,11 @@
   name:
     en: "Synthesised voice – based on real voice"
     pl: "Głos syntetyzowany - bazujący na głosie aktora"
+
+- !ruby/object:Elibri::ONIX::Dict::Release_3_0::UnnamedPersons
+  onix_code: '09'
+  const_name: AI
+  name:
+    en: "AI (Artificial intelligence)"
+    pl: "AI (Sztuczna Inteligencja)"
+

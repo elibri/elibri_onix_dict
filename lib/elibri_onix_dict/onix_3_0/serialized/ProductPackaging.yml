@@ -1,6 +1,5 @@
 # Opakowanie, w którym produkt fizyczny (poza audiobookami na nośnikach) trafia do klienta - kody ONIX List 80 (<ProductPackaging>),
 # wybrane te, które mają sens dla wydawców książek (bez m.in. opakowań płyt - jewel case, keep case, digipak - oraz slip-sleeve, clamshell, pouch, browse-prevention tape).
-# Kolejność to kolejność na formularzu.
 ---
 - !ruby/object:Elibri::ONIX::Dict::Release_3_0::ProductPackaging
   onix_code: '10'
